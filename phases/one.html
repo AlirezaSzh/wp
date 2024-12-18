@@ -1,0 +1,210 @@
+<!DOCTYPE html><html><head>    <meta charset="utf-8">
+    <title>Phase-one</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font/dist/font-face.css');
+
+        body {
+            direction: rtl;
+            font-family: 'Vazir', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 3%;
+            line-height: 1.6;
+        }
+
+        h3, h4, p, ol, ul, li {
+            text-align: right;
+            margin: 0 20px;
+        }
+
+        code {
+            font-family: 'Vazir', monospace;
+            background-color: #eef;
+            border: 1px solid #ccd;
+            border-radius: 4px;
+            padding: 2px 4px;
+            display: inline-block;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #ddd;
+            margin: 20px 0;
+        }
+    </style></head><body id="preview">
+<h3 class="code-line" data-line-start=0 data-line-end=1 ><a id="_______0"></a><strong>گزارش فاز اول پروژه طراحی افزونه وردپرس</strong></h3>
+<p class="has-line-data" data-line-start="2" data-line-end="5"><strong>تاریخ شروع فاز اول:</strong> ۱۴۰۳/۰۹/۱۹<br>
+<strong>تاریخ پایان فاز اول:</strong> ۱۴۰۳/۰۹/۲۷<br>
+<strong>هدف فاز اول:</strong> پیاده‌سازی بخش‌های مربوط به تحلیل و طراحی، مدیریت ایونت‌ها، و مدیریت کسب‌وکارها.</p>
+<hr>
+<h3 class="code-line" data-line-start=8 data-line-end=9 ><a id="______8"></a><strong>جزئیات کارهای انجام‌شده در فاز اول</strong></h3>
+<h4 class="code-line" data-line-start=10 data-line-end=11 ><a id="1____10"></a><strong>1. تحلیل و طراحی</strong></h4>
+<ol>
+<li class="has-line-data" data-line-start="11" data-line-end="15">
+<p class="has-line-data" data-line-start="11" data-line-end="12"><strong>جمع‌آوری نیازمندی‌ها:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="12" data-line-end="13">برگزاری جلسه با کارفرما جهت مشخص‌کردن تمامی جزئیات و نیازمندی‌های پروژه.</li>
+<li class="has-line-data" data-line-start="13" data-line-end="15">درک کامل اهداف افزونه و نحوه تعامل کاربران و مدیران سایت.</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="15" data-line-end="19">
+<p class="has-line-data" data-line-start="15" data-line-end="16"><strong>مستندسازی و طراحی نقشه راه:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="16" data-line-end="17">مستند کردن تمامی ویژگی‌های افزونه (ویژگی‌های ایونت‌ها، کسب‌وکارها، جستجو، و غیره).</li>
+<li class="has-line-data" data-line-start="17" data-line-end="19">تهیه نقشه راه پروژه به‌صورت گام‌به‌گام برای فازهای بعدی.</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="19" data-line-end="25">
+<p class="has-line-data" data-line-start="19" data-line-end="20"><strong>طراحی ساختار پایگاه داده:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="20" data-line-end="23">تعریف جداول و فیلدهای مورد نیاز برای ذخیره‌سازی اطلاعات ایونت‌ها و کسب‌وکارها:
+<ul>
+<li class="has-line-data" data-line-start="21" data-line-end="22"><strong>جدول ایونت‌ها:</strong> شامل فیلدهایی مانند <code>id</code>, <code>title</code>, <code>date</code>, <code>location</code>, <code>category</code>, <code>expiration_date</code>, و غیره.</li>
+<li class="has-line-data" data-line-start="22" data-line-end="23"><strong>جدول کسب‌وکارها:</strong> شامل فیلدهایی مانند <code>id</code>, <code>name</code>, <code>description</code>, <code>working_hours</code>, <code>contact_link</code>, و غیره.</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="23" data-line-end="25">ایجاد ارتباطات بین جداول برای مدیریت داده‌ها.</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="25" data-line-end="33">
+<p class="has-line-data" data-line-start="25" data-line-end="26"><strong>ساختار پوشه‌ها و فایل‌ها:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="26" data-line-end="27">طراحی ساختار پوشه‌ها و فایل‌های افزونه بر اساس استانداردهای وردپرس.</li>
+<li class="has-line-data" data-line-start="27" data-line-end="33">ایجاد فایل‌های اصلی افزونه شامل:
+<ul>
+<li class="has-line-data" data-line-start="28" data-line-end="29">فایل اصلی: <code>britishi-plugin.php</code></li>
+<li class="has-line-data" data-line-start="29" data-line-end="30">پوشه <code>includes/</code> برای منطق افزونه.</li>
+<li class="has-line-data" data-line-start="30" data-line-end="31">پوشه <code>assets/</code> برای فایل‌های استاتیک (CSS, JS).</li>
+<li class="has-line-data" data-line-start="31" data-line-end="33">پوشه <code>templates/</code> برای نمایش اطلاعات.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h4 class="code-line" data-line-start=35 data-line-end=36 ><a id="2___35"></a><strong>2. مدیریت ایونت‌ها</strong></h4>
+<ol>
+<li class="has-line-data" data-line-start="36" data-line-end="40">
+<p class="has-line-data" data-line-start="36" data-line-end="37"><strong>ایجاد نوع پست سفارشی (Custom Post Type) برای ایونت‌ها:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="37" data-line-end="38">ثبت یک پست تایپ سفارشی به نام <code>event</code> در افزونه.</li>
+<li class="has-line-data" data-line-start="38" data-line-end="40">افزودن ویژگی‌هایی مانند <code>public</code>, <code>has_archive</code>, و <code>supports</code> به پست تایپ.</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="40" data-line-end="49">
+<p class="has-line-data" data-line-start="40" data-line-end="41"><strong>تعریف فیلدهای مرتبط با ایونت‌ها:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="41" data-line-end="49">افزودن فیلدهایی مانند:
+<ul>
+<li class="has-line-data" data-line-start="42" data-line-end="43"><strong>عنوان ایونت (Event Title):</strong> نام ایونت.</li>
+<li class="has-line-data" data-line-start="43" data-line-end="44"><strong>تاریخ ایونت (Event Date):</strong> زمان برگزاری.</li>
+<li class="has-line-data" data-line-start="44" data-line-end="45"><strong>مکان (Location):</strong> موقعیت مکانی ایونت.</li>
+<li class="has-line-data" data-line-start="45" data-line-end="46"><strong>دسته‌بندی (Category):</strong> موضوع ایونت.</li>
+<li class="has-line-data" data-line-start="46" data-line-end="47"><strong>توضیحات (Description):</strong> توضیحات مرتبط.</li>
+<li class="has-line-data" data-line-start="47" data-line-end="49"><strong>تاریخ انقضاء (Expiration Date):</strong> برای حذف خودکار ایونت‌های قدیمی.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="49" data-line-end="53">
+<p class="has-line-data" data-line-start="49" data-line-end="50"><strong>نمایش لیست ایونت‌ها در پیش‌خوان وردپرس:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="50" data-line-end="51">افزودن ستونی برای نمایش تاریخ انقضاء و وضعیت فعال بودن ایونت.</li>
+<li class="has-line-data" data-line-start="51" data-line-end="53">امکان فیلتر ایونت‌ها براساس دسته‌بندی و تاریخ.</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="53" data-line-end="57">
+<p class="has-line-data" data-line-start="53" data-line-end="54"><strong>قابلیت مدیریت توسط کاربران:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="54" data-line-end="55">طراحی فرم ثبت ایونت توسط کاربران.</li>
+<li class="has-line-data" data-line-start="55" data-line-end="57">ارسال ایونت‌ها برای تأیید توسط مدیر سایت قبل از انتشار.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h4 class="code-line" data-line-start=59 data-line-end=60 ><a id="3___59"></a><strong>3. مدیریت کسب‌وکارها</strong></h4>
+<ol>
+<li class="has-line-data" data-line-start="60" data-line-end="64">
+<p class="has-line-data" data-line-start="60" data-line-end="61"><strong>ایجاد نوع پست سفارشی برای کسب‌وکارها:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="61" data-line-end="62">ثبت یک پست تایپ سفارشی به نام <code>business</code> در افزونه.</li>
+<li class="has-line-data" data-line-start="62" data-line-end="64">افزودن ویژگی‌هایی مشابه ایونت‌ها با فیلدهای مختص کسب‌وکار.</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="64" data-line-end="72">
+<p class="has-line-data" data-line-start="64" data-line-end="65"><strong>تعریف فیلدهای مرتبط با کسب‌وکارها:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="65" data-line-end="72">فیلدهای تعریف‌شده شامل:
+<ul>
+<li class="has-line-data" data-line-start="66" data-line-end="67"><strong>نام کسب‌وکار (Business Name):</strong> نام رسمی کسب‌وکار.</li>
+<li class="has-line-data" data-line-start="67" data-line-end="68"><strong>توضیحات (Description):</strong> توضیحات مختصر.</li>
+<li class="has-line-data" data-line-start="68" data-line-end="69"><strong>ساعات کاری (Working Hours):</strong> بازه زمانی فعالیت کسب‌وکار.</li>
+<li class="has-line-data" data-line-start="69" data-line-end="70"><strong>لینک تماس (Contact Link):</strong> لینک وب‌سایت یا شماره تماس.</li>
+<li class="has-line-data" data-line-start="70" data-line-end="72"><strong>مکان جغرافیایی (Location):</strong> برای نمایش روی نقشه.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="72" data-line-end="75">
+<p class="has-line-data" data-line-start="72" data-line-end="73"><strong>نمایش لیست کسب‌وکارها در پیش‌خوان وردپرس:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="73" data-line-end="75">افزودن قابلیت مرتب‌سازی و فیلتر براساس نام، دسته‌بندی و مکان.</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="75" data-line-end="79">
+<p class="has-line-data" data-line-start="75" data-line-end="76"><strong>قابلیت مدیریت توسط کاربران:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="76" data-line-end="77">طراحی فرم ثبت کسب‌وکار مشابه فرم ایونت.</li>
+<li class="has-line-data" data-line-start="77" data-line-end="79">ارسال کسب‌وکارها برای تأیید توسط مدیر سایت قبل از انتشار.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 class="code-line" data-line-start=81 data-line-end=82 ><a id="___81"></a><strong>دستاوردهای فاز اول</strong></h3>
+<ol>
+<li class="has-line-data" data-line-start="83" data-line-end="87">
+<p class="has-line-data" data-line-start="83" data-line-end="84"><strong>تحلیل و طراحی کامل:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="84" data-line-end="85">نیازمندی‌ها مستندسازی و نقشه راه تهیه شد.</li>
+<li class="has-line-data" data-line-start="85" data-line-end="87">پایگاه داده و ساختار افزونه به‌طور کامل طراحی شد.</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="87" data-line-end="91">
+<p class="has-line-data" data-line-start="87" data-line-end="88"><strong>مدیریت ایونت‌ها:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="88" data-line-end="89">ثبت ایونت‌ها و مدیریت آن‌ها در پیش‌خوان وردپرس.</li>
+<li class="has-line-data" data-line-start="89" data-line-end="91">امکان افزودن ایونت توسط کاربران با تأیید مدیر.</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="91" data-line-end="95">
+<p class="has-line-data" data-line-start="91" data-line-end="92"><strong>مدیریت کسب‌وکارها:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="92" data-line-end="93">ثبت و مدیریت کسب‌وکارها در پیش‌خوان وردپرس.</li>
+<li class="has-line-data" data-line-start="93" data-line-end="95">طراحی فرم ثبت برای کاربران با قابلیت تأیید توسط مدیر.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 class="code-line" data-line-start=97 data-line-end=98 ><a id="____97"></a><strong>پیشنهادات برای فازهای بعدی</strong></h3>
+<ol>
+<li class="has-line-data" data-line-start="98" data-line-end="100"><strong>فیلدهای داینامیک:</strong>
+<ul>
+<li class="has-line-data" data-line-start="99" data-line-end="100">پیاده‌سازی قابلیت افزودن فیلدهای خاص برای هر دسته‌بندی.</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="100" data-line-end="102"><strong>نمایش نقشه:</strong>
+<ul>
+<li class="has-line-data" data-line-start="101" data-line-end="102">ادغام با Google Maps یا OpenStreetMap برای نمایش ایونت‌ها و کسب‌وکارها.</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="102" data-line-end="105"><strong>جستجو و فیلتر:</strong>
+<ul>
+<li class="has-line-data" data-line-start="103" data-line-end="105">پیاده‌سازی سیستم جستجو و فیلتر پیشرفته برای کاربران.</li>
+</ul>
+</li>
+</ol>
+<hr>
+
+
+</body></html>
